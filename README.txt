@@ -42,7 +42,7 @@ irish-milk-price-tracker/
 1. **Farm vs Input Costs** → Milk Output vs Input Average  
 2. **Farm vs Retail CPI** → Retail price lag visualisation  
 
-👉 *View the interactive dashboard on [Tableau Public](https://public.tableau.com/app/profile/)* (insert your link).
+👉 *View the interactive dashboard on [Tableau Public](https://public.tableau.com/app/profile/muhammed.adnaan/viz/IrishMilkPriceTrackerFarmvsRetailInputCosts/Dashboard1).
 
 ---
 
@@ -65,3 +65,4 @@ irish-milk-price-tracker/
 ### 📜 References
 - CSO PxStat AHM05 (Agricultural Input & Output Price Indices)  
 - CSO PxStat CPM18 (Consumer Price Index)  
+
