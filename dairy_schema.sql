@@ -1,4 +1,4 @@
--- AHM05: Agricultural Input & Output Price Indices (you downloaded only needed items)
+-- AHM05: Agricultural Input & Output Price Indices 
 DROP TABLE IF EXISTS stg_ahm05_raw;
 CREATE TABLE stg_ahm05_raw (
     statistic           text,
@@ -220,4 +220,5 @@ WHERE output_milk_idx IS NOT NULL
 
 COPY (SELECT * FROM dairy.v_farm_vs_inputs ORDER BY month_start)
 TO 'C:\\Users\\Adnaan\\\\v_farm_vs_inputs.csv'
+
 WITH (FORMAT CSV, HEADER, ENCODING 'UTF8');
